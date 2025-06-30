@@ -1,0 +1,189 @@
+.suppliers-wrapper {
+    margin-top: 20px;
+}
+
+.supplier-info {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.supplier-contacts-table {
+    margin-top: 20px;
+}
+
+.supplier-groups-wrapper {
+    margin-top: 20px;
+}
+
+.supplier-billing-shipping {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.supplier-profile-header {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.supplier-profile-header h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.supplier-contact-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.supplier-contact-item.primary {
+    border-color: #28a745;
+    background: #f8fff9;
+}
+
+.supplier-stats {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.supplier-stats .stat-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.supplier-stats .stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.supplier-stats .stat-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.table-suppliers-groups {
+    margin-top: 20px;
+}
+
+.supplier-form-section {
+    margin-bottom: 30px;
+}
+
+.supplier-form-section h4 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.supplier-tabs {
+    margin-bottom: 20px;
+}
+
+.supplier-tabs .nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.supplier-tabs .nav-tabs .nav-link {
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #666;
+    font-weight: 500;
+}
+
+.supplier-tabs .nav-tabs .nav-link.active {
+    border-bottom-color: #007bff;
+    color: #007bff;
+    background: none;
+}
+
+.supplier-contact-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.supplier-group-badge {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.supplier-inactive {
+    opacity: 0.6;
+}
+
+.supplier-inactive .supplier-info {
+    background: #f5f5f5;
+    border-left: 4px solid #dc3545;
+}
+
+/* Fix for DataTable loading issue */
+.table-loading {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.dataTables_wrapper.table-loading {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.dataTables_wrapper {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.table-suppliers {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: table !important;
+}
+
+/* Override any loading styles */
+#DataTables_Table_0_wrapper.table-loading {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+#DataTables_Table_0_wrapper {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+/* Force show table content */
+.dataTables_wrapper .dataTables_processing {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .supplier-profile-header {
+        padding: 15px;
+    }
+
+    .supplier-stats .stat-item {
+        margin-bottom: 15px;
+    }
+
+    .supplier-form-section {
+        margin-bottom: 20px;
+    }
+}
